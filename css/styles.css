@@ -1,0 +1,67 @@
+.list {
+    padding: 40px;
+    list-style: none;
+
+}
+
+.link {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.link:hover,
+.link:focus {
+    color: blue;
+}
+
+.not-found {
+    background-color: tomato;
+}
+
+/* .vhidni {
+    background-color: yellow;
+} */
+
+.vidsytni,
+.papka {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+}
+
+.vidsytni::before {
+    margin-right: 10px;
+    content: "";
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: tomato;
+}
+
+
+.title{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
